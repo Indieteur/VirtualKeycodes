@@ -672,5 +672,4 @@
         /// </summary>
         OEM_Clear = 0xFE,
         None = 0x00
-        // TODO: Complete the list
     }
