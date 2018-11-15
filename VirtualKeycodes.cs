@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GlobalHooks
-{
     /// <summary>
     /// List of KeyCodes that is independent of the configuration of the system of the user. (as opposed to Hardware Scancodes)
     /// </summary>
-    public enum VirtualKeycodes    //We create a human understandable enumeration of Virtual Key Codes without having to reference System.Windows.Forms
+    public enum VirtualKeycodes    //Create a human understandable enumeration of Virtual Key Codes without having to reference System.Windows.Forms
     {
         /// <summary>
         /// The Backspace Key.
@@ -682,4 +674,3 @@ namespace GlobalHooks
         None = 0x00
         // TODO: Complete the list
     }
-}
